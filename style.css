@@ -1,0 +1,202 @@
+@font-face {
+    font-family: 'MinhaFonte';
+    src: url('PlaywriteNO-VariableFont_wght.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'MinhaFonte2';
+    src: url('Montserrat-VariableFont_wght.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'MinhaFonte3';
+    src: url('ScienceGothic-VariableFont_CTRS,slnt,wdth,wght.ttf') format('truetype');
+}
+
+
+h1 {
+    color: rgb(0, 0, 0);
+    font-family: 'MinhaFonte', sans-serif;
+    text-align: center;
+} body {
+    background-color: #dbf8ff;
+    margin: 0;
+    padding: 20px;
+} h2 {
+    color: rgb(0, 0, 0);
+    font-family: 'MinhaFonte2';
+} h3 {
+    color: rgb(80, 80, 80);
+    font-family: 'Courier New', Courier, monospace;
+} 
+
+.blocos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px; 
+    padding: 20px;
+      line-height: 1.5;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+        background-color: #e6faf8;
+}
+
+ .card {
+     padding: 5px;
+        }
+
+        .decomposicao1 { background-color: #aedeec; border-radius: 15px;}
+        .padroes1       { background-color: #d4ffd6; border-radius: 15px;}
+        .abstracao1     { background-color: #ffe9c4; border-radius: 15px;}
+        .algoritmos1    { background-color: #ffd1d1; border-radius: 15px;}
+      
+    #resultado {
+    font-size: 24px; 
+    background-color: #629de0;
+    font-family : 'Arial Black', Gadget, sans-serif;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+
+button {
+    border-radius: 15px;
+    font-family: 'MinhaFonte3';
+}
+
+.Lord {
+display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px; 
+    padding: 20px;
+      line-height: 1.5;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+        background-color: #e6faf8;
+
+}
+
+/* Para decomposicao */
+
+.decomposicao {  background-color: #bce3f0;
+    padding: 25px;
+    border-radius: 18px;
+    width: 95%;
+    margin: auto;
+    margin-top: 80px;
+}
+.conteudod{ 
+      display: flex;
+        grid-template-columns: 2fr 2fr 1fr;
+    gap: 25px;
+    align-items: flex-start;
+}
+.titulo-centrod {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+.imgd {
+display: block;
+    margin: 20px auto; 
+    max-width: 400px;
+}
+.conteudod p {
+    font-size: 18px;
+    line-height: 1.6;
+    flex: 1;
+    margin: 0;
+}
+
+/* Para padroes */
+
+.padroes {background-color: #d4ffd6;
+    padding: 25px;
+    border-radius: 18px;
+    width: 95%;
+    margin: auto;
+    margin-top: 30px;
+}
+.conteudop{ 
+      display: flex;
+        grid-template-columns: 2fr 2fr 1fr;
+    gap: 25px;
+    align-items: flex-start;
+}
+.titulo-centrop {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+.imgp {
+display: block;
+    margin: 20px auto; 
+    width: 400px;
+}
+.conteudop p {
+    font-size: 18px;
+    line-height: 1.6;
+    flex: 1;
+    margin: 0;
+}
+
+/* Para abstracao */
+
+.abstracao {background-color: #ffe9c4;
+    padding: 25px;
+    border-radius: 18px;
+    width: 95%;
+    margin: auto;
+    margin-top: 30px;
+}
+.conteudoa{ 
+      display: flex;
+        grid-template-columns: 2fr 2fr 1fr;
+    gap: 25px;
+    align-items: flex-start;
+}
+.titulo-centroa {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+.imga {
+display: block;
+    margin: 20px auto; 
+    width: 400px;
+}
+.conteudoa p {
+    font-size: 18px;
+    line-height: 1.6;
+    flex: 1;
+    margin: 0;
+}
+
+/* Para algoritmo */
+
+.algoritmo {background-color: #ffd1d1;
+    padding: 25px;
+    border-radius: 18px;
+    width: 95%;
+    margin: auto;
+    margin-top: 30px;
+}
+.conteudoag{ 
+      display: flex;
+        grid-template-columns: 2fr 2fr 1fr;
+    gap: 25px;
+    align-items: flex-start;
+}
+.titulo-centroag {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+.imgag {
+display: block;
+    margin: 20px auto; 
+    width: 400px;
+}
+.conteudoag p {
+    font-size: 18px;
+    line-height: 1.6;
+    flex: 1;
+    margin: 0;
+}

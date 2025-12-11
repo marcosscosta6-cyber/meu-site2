@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="Playwrite_NO.zip" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <h1>Pensamento computacional</h1>
+
+    <!-- Cards iniciais -->
+
+<div class = blocos > 
+
+  <div class= "Card decomposicao1"> <h2>Decomposição (Dividir o problema)</h2>   <button onclick="button1()">Decompor</button>
+    <h3> Decomposição é dividir o problema em partes, pegar um problema grande e quebrar ele em partes pequenas tornando assim mais fácil a compreensão da atividade</h3>
+   </div>
+
+    <div class= "Card padroes1"> <h2>Reconhecimento de Padrões (Identificar semelhanças)</h2>  <button onclick="button2()">Reconhecer Padrões</button>
+    <h3> Reconhecimento de padrões é identificar semelhanças entre problemas, ou seja, encontrar algo que se repete em diferentes situações</h3>
+   </div>
+    
+     <div class= "Card abstracao1"> <h2>Abstração (Focar no importante)</h2> <h2><button onclick="button3()">Abstrair</button></h2>
+    <h3> Abstração é focar no que é importante, ou seja, ignorar os detalhes desnecessários para resolver o problema de forma mais eficiente</h3>
+    </div>
+
+ <div class= "Card algoritmos1"> <h2>Algoritmos (Passo a passo)</h2> <button onclick="button4()">Criar Algoritmo</button>
+    <h3> Algoritmos são um conjunto de instruções passo a passo para resolver um problema ou realizar uma tarefa específica</h3>
+ </div>
+
+</div>
+
+<div id= "resultado"></div>
+
+<!-- Lords conteúdo adicional -->
+<!-- Para decomposicao -->
+<div class="Lord decomposicao">
+
+    <h2 class="titulo-centrod">Decomposição (Dividir o problema): <img src="Figura-8-Partes-da-Bicicleta-Decomposicao.png" class="imgd">
+</h2>    <div class="conteudod">
+
+        
+        <p>
+            A decomposição computacional envolve quebrar um problema complexo ou um sistema grande em partes menores e mais gerenciáveis (subproblemas) para facilitar a compreensão e a resolução. No contexto de uma bicicleta, isso significa dividir a bicicleta completa em seus componentes e sistemas funcionais.
+            <br><br>
+            <strong>Exemplo de Decomposição:</strong>  
+            O problema maior pode ser “entender como uma bicicleta funciona” ou “fazer a manutenção de uma bicicleta”. A decomposição divide isso nas seguintes partes ou subsistemas:
+            <br><br>
+            <strong>Sistema de Estrutura (Quadro e Garfo):</strong> Fornece o suporte principal e a direção. 
+            <br> 
+            <strong>Sistema de Tração e Transferência de Energia:</strong> Inclui pedais, pedivela, corrente e pinhões, que transferem a energia do ciclista para a roda traseira.  
+            <br>
+            <strong>Sistema de Rodas:</strong> Aros, raios, cubos e pneus, responsáveis pelo movimento e absorção de impactos. 
+            <br> 
+            <strong>Sistema de Freios:</strong> Reduz a velocidade e para a bicicleta.  
+            <br>
+            <strong>Sistema de Direção e Estabilidade:</strong> Guidão e garfo.  
+            <br>
+            <strong>Sistema de Assento:</strong> Selim e canote.
+        </p>
+    </div>
+</div>
+
+<!-- Para padrões -->
+
+<div class = "Lord padroes"> <h2 class ="titulo-centrop">Reconhecimento de Padrões (Identificar semelhanças): <img src="images.png" class="imgp"> </h2>
+<div class="conteudop">
+
+        
+
+        <p>
+       O reconhecimento de padrões é uma técnica fundamental do pensamento computacional que se concentra em identificar semelhanças, regularidades, tendências ou repetições dentro de dados, sistemas ou cenários. O objetivo é usar essas descobertas para criar regras gerais, simplificar informações complexas, fazer previsões ou automatizar processos.
+<br><br>
+
+<strong>Exemplo de Reconhecimento de Padrões: Previsão do Tempo.</strong>  
+Meteorologistas analisam grandes volumes de dados históricos e atuais (temperatura, umidade, pressão atmosférica, direção do vento, imagens de satélite) para identificar padrões que ajudam a prever fenômenos futuros.
+<br><br>
+
+<strong>Identificação de Tendências:</strong> Sistemas computacionais reconhecem comportamentos que se repetem ao longo do tempo, como queda brusca de temperatura indicando uma frente fria ou aumento da umidade sugerindo chuva.
+<br>
+
+<strong>Processamento de Grandes Quantidades de Dados:</strong> Algoritmos conseguem comparar milhares de registros para encontrar padrões que seriam difíceis de perceber manualmente.
+<br>
+
+<strong>Previsão e Tomada de Decisão:</strong> Com os padrões identificados, os modelos conseguem prever eventos futuros, como tempestades, ondas de calor ou períodos de seca.
+<br>
+
+<strong>Reconhecimento em Outras Áreas:</strong> A mesma técnica é usada em detecção de fraudes, reconhecimento facial, recomendações de vídeo/música e análise de comportamento em redes sociais.
+<br>
+
+<strong>Aprimoramento Contínuo:</strong> Quanto mais dados os sistemas recebem, melhor eles ficam em reconhecer padrões e aumentar a precisão das previsões.
+
+        </p>
+    </div>
+</div>
+</div>
+
+<!-- Para abstracao -->
+
+<div class = "Lord abstracao"> <h2 class ="titulo-centroa"> Abstração (Focar no importante): <img src="unnamed.png" class="imga"> </h2>
+<div class="conteudoa">
+
+
+        <p>
+O conceito de abstração é uma habilidade essencial do pensamento computacional que consiste em reduzir a complexidade, destacando apenas os elementos mais importantes de um problema, sistema ou situação. A ideia é ignorar detalhes irrelevantes para construir representações mais simples, claras e fáceis de manipular.
+
+<br><br>
+
+<strong>Exemplo de Abstração: Previsão do Tempo.</strong>
+Meteorologistas utilizam modelos que simplificam fenômenos extremamente complexos. Em vez de considerar cada molécula de ar, os sistemas trabalham com variáveis essenciais — como temperatura, umidade, pressão e vento — criando uma versão reduzida, porém funcional, da atmosfera real.
+<br><br>
+
+<strong>Identificação do Essencial:</strong> A abstração permite focar apenas nas informações realmente importantes. Por exemplo, para prever chuva, não é necessário analisar todos os elementos possíveis, apenas aqueles que influenciam diretamente o fenômeno.
+<br>
+
+<strong>Simplificação de Sistemas Complexos:</strong> Algoritmos transformam grandes volumes de dados em modelos enxutos, descartando detalhes que não afetam o resultado final. Isso deixa o processamento mais rápido e eficiente.
+<br>
+
+<strong>Modelagem e Tomada de Decisão:</strong> A partir da versão simplificada da realidade, os sistemas conseguem gerar previsões, testar cenários e tomar decisões sem precisar lidar com toda a complexidade natural do mundo físico.
+<br>
+
+<strong>Aplicações em Outras Áreas:</strong> A abstração também é usada para criar mapas (que mostram só o essencial), desenvolver interfaces de aplicativos, programar jogos e organizar sistemas bancários, sempre escondendo complexidades internas do usuário.
+<br>
+
+<strong>Clareza e Organização:</strong> Ao remover o excesso de detalhes, a abstração torna mais fácil entender, explicar e trabalhar com sistemas, o que melhora o desenvolvimento de soluções e a eficiência dos processos.
+        </p>
+    </div>
+</div>
+</div>
+
+<!-- Para algoritmo -->
+
+<div class = "Lord algoritmo"> <h2 class ="titulo-centroag"> Algoritmos (Passo a passo): <img src="images (1).png" class="imgag"> </h2>
+<div class="conteudoag">
+
+
+        <p>
+O conceito de algoritmo é uma das bases do pensamento computacional e se refere a um conjunto de passos organizados e lógicos para resolver um problema ou executar uma tarefa. Ele transforma uma ideia em uma sequência clara de ações, permitindo que humanos ou computadores sigam o processo de forma precisa e previsível.
+
+<br><br>
+
+<strong>Exemplo de Algoritmo: Navegação por GPS.</strong>
+Quando você coloca um destino no GPS, o sistema executa um algoritmo que analisa rotas, calcula distâncias, identifica trânsito e define o melhor caminho. Tudo isso acontece seguindo uma sequência de passos bem planejados.
+<br><br>
+
+<strong>Sequência Lógica de Ações:</strong> Um algoritmo precisa ter passos ordenados, como “pegar a via A”, “virar à direita na rua B”, “seguir 500 metros”. Cada instrução leva ao próximo passo.
+<br>
+
+<strong>Processamento de Informações:</strong> O sistema coleta dados (ruas, velocidade, trânsito) e usa algoritmos para transformá-los em decisões — como recalcular a rota se você errar o caminho.
+<br>
+
+<strong>Previsão e Execução Precisa:</strong> Como os passos são definidos com clareza, o GPS consegue orientar o usuário sem ambiguidades, garantindo eficiência e reduzindo erros.
+<br>
+
+<strong>Aplicações em Outras Áreas:</strong> Algoritmos estão presentes em redes sociais (recomendações), jogos (movimento de NPCs), bancos (processamento de transações), delivery (seleção de entregadores), e praticamente qualquer tecnologia digital.
+<br>
+
+<strong>Clareza e Repetibilidade:</strong> Um bom algoritmo pode ser repetido várias vezes com resultados consistentes, o que permite automatizar tarefas e criar soluções confiáveis.
+</p>
+    </div>
+</div>
+</div>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
